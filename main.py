@@ -13,7 +13,7 @@ from services.groq import generate_answer
 # ==========================================
 
 app = FastAPI(
-    title="YouTube Playlist RAG"
+    title="YouTube RAG"
 )
 app.add_middleware(
     CORSMiddleware,
